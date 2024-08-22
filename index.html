@@ -25,46 +25,18 @@
 
 <body>
 
-  <header class="bg-gradient-to-b from-[#F4F4F4] to-white h-52">
-    
-
-    <!-- banner -->
-     <section class="container px-5 mx-auto">
-      <!-- banner image -->
-      <div class="items-center justify-center flex">
-        <img src="./assets/banner.png" alt="banner-home">
-      </div>
-      <!-- banner texts -->
-       <div class="">
-         <h1 class="text-3xl sm:text-4xl xl:text-6xl font-extrabold text-center mb-5 xl:mb-8 sm:w-5/6 xl:w-3/4 mx-auto">
-          A barn house of this design has a striking appearance
-         </h1>                    
-         <p class="text-gray-500 text-center mb-5 sm:w-5/6 xl:w-5/6 mx-auto text-sm sm:text-base xl:px-16">
-          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
-         </p>
-         <button class="bg-[#ABEF5F80] py-2 rounded-full text-xl font-bold w-full sm:w-60 flex justify-center items-center gap-2 mx-auto">
-          View Details
-          <span class="w-8 h-8 bg-[#ABEF5F] rounded-full items-center justify-center flex"><i
-            class="fa-solid fa-arrow-up-long text-lg rotate-45"></i></span>
-         </button>
-       </div>
-     </section>
-  </header>
-
-
-
-  <!-- <header class="bg-gradient-to-b from-[#F4F4F4] to-white h-52 w-full">
-    <div class="container  mx-auto">
-
-      <div class="navbar justify-between">
+  <header class="bg-gradient-to-b from-[#F4F4F4] to-[#fff]">
+    <!-- navbar -->
+    <div class="container mx-auto">
+      <div class="navbar justify-between items-center px-5">
         <div class="navbar-start w-full sm:w-auto justify-between">
           <div class="dropdown order-2">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <a href="" class="w-10 h-10 bg-white rounded-full items-center justify-center flex border">
-                <i
+            <div tabindex="0" role="button" class="sm:hidden">
+              <a href="" class="w-10 h-10 bg-white rounded-full items-center justify-center flex border"><i
                   class="fa-solid fa-bars text-gray-500 text-xl"></i></a>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 right-5 w-52 p-2 shadow">
               <li><a>Home</a></li>
               <li><a>Sevices</a></li>
               <li><a>Portfolio</a></li>
@@ -73,10 +45,11 @@
             </ul>
           </div>
 
-          <a class="text-3xl xl:text-4xl font-extrabold flex gap-3 items-center">
+          <a class="text-3xl xl:text-4xl font-extrabold flex gap-2 items-center">
             <span class="w-8 h-8 bg-green-400 rounded-full items-center justify-center flex"><i
                 class="fa-solid fa-arrow-up-long text-lg rotate-45 text-white"></i></span>Rinterio</a>
         </div>
+
         <div class="navbar-center hidden lg:flex">
           <ul class="menu-bar space-x-5 menu-horizontal ">
             <li class="hover:font-bold duration-100 transition ease-in-out text-gray-500"><a
@@ -88,26 +61,107 @@
             <li class="hover:font-bold text-gray-500"><a>Sevices</a></li>
           </ul>
         </div>
-        <div class="navbar-end w-auto space-x-5 hidden sm:block">
+
+        <div class="navbar-end w-auto space-x-3 hidden sm:flex">
 
           <a href="" class="w-8 h-8 bg-white rounded-full items-center justify-center flex"><i
               class="fa-solid fa-magnifying-glass text-gray-500"></i></a>
           <a href="" class="w-8 h-8 bg-white rounded-full items-center justify-center flex"><i
               class="fa-solid fa-cart-shopping text-gray-500"></i></a>
 
-          <a href="" class="text-xl font-bold bg-green-400 px-3 py-1 rounded-full flex gap-3   ">Book Consult <span
+          <a href="" class="text-xl font-bold bg-green-400 px-3 py-1 rounded-full flex gap-3 ">Book Consult <span
               class="w-8 h-8 bg-black rounded-full items-center justify-center flex"><i
                 class="fa-solid fa-arrow-up-long text-lg rotate-45 text-white"></i></span></i></a>
 
-
+          <!-- use for medium device -->
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="lg:hidden">
+              <a href="" class="w-10 h-10 bg-white rounded-full items-center justify-center flex border"><i
+                  class="fa-solid fa-bars text-gray-500 text-xl"></i></a>
+            </div>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 right-5 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Sevices</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-
     </div>
-  </header> -->
+
+    <!-- banner -->
+    <section class="container px-5 mx-auto">
+      <!-- banner image -->
+      <div>
+        <img src="./assets/banner.png" alt="banner-home" class="mx-auto">
+      </div>
+      <!-- banner texts -->
+      <div class="">
+        <h1 class="text-3xl sm:text-4xl xl:text-6xl font-extrabold text-center mb-5 xl:mb-8 sm:w-5/6 xl:w-3/4 mx-auto">
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="text-gray-500 text-center mb-5 sm:w-5/6 xl:w-5/6 mx-auto text-sm sm:text-base xl:px-16">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
+          sleek metal accents, and large windows that flood the space with natural light.
+        </p>
+        <button
+          class="bg-[#ABEF5F80] py-2 rounded-full text-xl font-bold w-full sm:w-60 flex justify-center items-center gap-2 mx-auto">
+          View Details
+          <span class="w-8 h-8 bg-[#ABEF5F] rounded-full items-center justify-center flex"><i
+              class="fa-solid fa-arrow-up-long text-lg rotate-45"></i></span>
+        </button>
+      </div>
+    </section>
+  </header>
 
   <main>
-    
+    <!-- about us -->
+    <section class="bg-[#F4F4F4] px-5 py-10 sm:py-16 xl:py-24 my-10 sm:my-16 xl:my-20">
+      <!-- container div -->
+      <div class="container mx-auto xl:flex xl:gap-10">
+
+        <!-- about texts -->
+        <div class="xl:w-1/2">
+          <div class="text-center xl:text-left space-y-5 mb-5 relative">
+            <img src="./assets/Vector.png" alt="Vector-bg" class="absolute -left-10 -top-10 hidden xl:block">
+            <button class="bg-white px-4 py-1 rounded-full font-bold"><i
+                class="fa-solid fa-arrow-right-long mr-2"></i>About Us</button>
+            <h1 class="text-2xl sm:text-3xl xl:text-5xl font-extrabold px-5 xl:leading-snug xl:px-0 xl:mr-10">We design
+              thoughtful, liveable spaces</h1>
+            <p class="text-gray-500 text-sm sm:text-base">The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <!-- card container -->
+            <div class="space-y-5 sm:space-y-0 sm:flex gap-5 xl:flex-col">
+              <div class="bg-white p-5 rounded-lg flex gap-5 text-left">
+                <img src="./assets/commercial.png" class="w-10 h-10">
+                <div>
+                  <h3 class="font-bold text-xl mb-2">Commercial</h3>
+                  <p class="text-gray-500">This category includes single-tenant properties, office buildings, downtown
+                    skyscrapers.</p>
+                </div>
+              </div>
+              <div class="bg-white p-5 rounded-lg flex gap-5 text-left">
+                <img src="./assets/residential.png" class="w-10 h-10">
+                <div>
+                  <h3 class="font-bold text-xl mb-2">Residential</h3>
+                  <p class="text-gray-500">It include apartments, hostels, lodging houses, single- or multi-family
+                    homes, townhouses, and more.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- about image -->
+        <div class="xl:w-1/2">
+          <img src="./assets/my-home.png" alt="my-home" class="sm:h-96 xl:h-[560px] w-full object-cover xl:object-fill">
+        </div>
+
+      </div>
+    </section>
   </main>
 
   <footer>
