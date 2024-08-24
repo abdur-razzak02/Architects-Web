@@ -55,9 +55,9 @@
             <li class="hover:font-bold duration-100 transition ease-in-out text-gray-500"><a href="#home"
             class="transition duration-100 ease-in-out">Home</a></li>
             <li class="hover:font-bold text-gray-500"><a href="#portfolio">Portfolio</a></li>
-            <li class="hover:font-bold text-gray-500"><a>Blogs</a></li>            
+            <li class="hover:font-bold text-gray-500"><a href="#article">Blogs</a></li>            
             <li class="hover:font-bold text-gray-500"><a href="#services">Sevices</a></li>
-            <li class="hover:font-bold text-gray-500"><a>Contact Us</a></li>
+            <li class="hover:font-bold text-gray-500"><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
 
@@ -69,8 +69,8 @@
               class="fa-solid fa-cart-shopping text-gray-500"></i></a>
 
           <a href="" class="text-xl font-bold bg-green-400 px-3 py-1 rounded-full flex gap-3 ">Book Consult <span
-              class="w-8 h-8 bg-black rounded-full items-center justify-center flex"><i
-                class="fa-solid fa-arrow-up-long text-lg rotate-45 text-white"></i></span></i></a>
+          class="w-8 h-8 bg-black rounded-full items-center justify-center flex"><i
+          class="fa-solid fa-arrow-up-long text-lg rotate-45 text-white"></i></span></i></a>
 
           <!-- use for medium device -->
           <div class="dropdown">
@@ -232,11 +232,12 @@
     </section>
 
     <!-- Our Latest Portfolio-->
-    <section id="portfolio" class="px-5 py-10 sm:py-16 xl:py-24 mb-52">
+    <section id="portfolio" class="bg-[#F4F4F4] xl:bg-white px-5 py-10 sm:py-16 xl:py-24">
+
       <div class="container mx-auto">
 
       <!-- portfolio texts -->
-        <div class="text-center space-y-5 mb-5">
+        <div class="text-center space-y-5 mb-5 xl:mb-8">
           <button class="bg-[#ABEF5F33] px-4 py-1 rounded-full font-bold"><i class="fa-solid fa-arrow-right-long mr-2"></i>Our Latest Portfolio</button>
           <h1 class="text-2xl sm:text-3xl xl:text-5xl font-extrabold">Our Latest Portfolio</h1>
           <p class="text-gray-500 text-sm sm:text-base sm:w-4/5 xl:w-1/2 mx-auto">A portfolio should be used to showcase your best work that you can share with potential employers or clients. It provides a true reflection of your architectural skills. </p>
@@ -246,8 +247,8 @@
          <div class="grid sm:grid-cols-2 xl:grid-cols-8 gap-5">
 
           <div class="card card-side flex-col sm:flex-row border rounded-xl sm:items-center p-5 sm:col-span-2 xl:col-span-5">
-            <figure class="sm:w-80">
-              <img src="./assets/img1.png" class="w-full h-full"/>
+            <figure class="sm:w-80 xl:w-96 h-full">
+              <img src="./assets/img1.png" class="w-full h-full rounded-3xl"/>
             </figure>
             <div class="card-body p-1 sm:px-5 pt-5 sm:pt-0">
               <h2 class="card-title font-extrabold text-2xl sm:text-3xl">Residential</h2>
@@ -260,14 +261,13 @@
           <div class="p-5 border rounded-xl xl:col-span-3 h-52 xl:h-72">
             <img src="./assets/img2.png" class="w-full h-full">
           </div>
-
           <div class="p-5 border rounded-xl xl:col-span-2 h-52 xl:h-72">
             <img src="./assets/img5.png" class="w-full h-full">
           </div>
           
           <div class="card card-side p-5 border rounded-xl sm:col-span-2 xl:col-span-4 flex-col sm:flex-row sm:items-center">
-            <figure class="sm:w-80">
-              <img src="./assets/img4.png" class="w-full"/>
+            <figure class="sm:w-80 xl:w-96 xl:h-full">
+              <img src="./assets/img4.png" class="w-full h-full rounded-3xl"/>
             </figure>
             <div class="card-body p-2 sm:px-5 pt-5 sm:pt-0">
               <h2 class="card-title font-extrabold text-2xl sm:text-3xl">Commercial</h2>
@@ -279,8 +279,7 @@
 
           <div class="p-5 border rounded-xl xl:col-span-2 h-52 xl:h-72">
             <img src="./assets/img5.png" class="w-full h-full">
-          </div>
- 
+          </div> 
           <div class="p-5 border rounded-xl h-52 xl:hidden">
             <img src="./assets/img3.png" class="w-full h-full">
           </div>
@@ -289,6 +288,96 @@
 
     </section>
 
+    <!-- read article -->
+     <section id="article" class="bg-[#F4F4F4] px-5 py-10 sm:py-0 xl:py-16 xl:pb-20">
+      <div class="container mx-auto ">
+        <!-- daisyUI hero section -->
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="">
+              <button class="bg-[#ABEF5F33] px-4 py-1 rounded-full font-bold mb-5"><i class="fa-solid fa-arrow-right-long mr-2"></i>Our Latest Portfolio</button>
+              <h1 class="text-2xl sm:text-3xl xl:text-5xl font-extrabold">Read Our Articles and News</h1>
+              <p class="text-gray-500 text-sm sm:text-base sm:w-4/5 xl:w-2/3 mx-auto py-3 xl:py-6">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- article cards -->
+      <div class="grid xl:grid-cols-3 gap-5 xl:gap-10">
+        <div class="card bg-base-100 shadow-xl sm:flex-row xl:flex-col">
+          <figure class="p-5 pb-0 sm:h-56 xl:h-full">
+            <img src="./assets/article1.png" class="rounded-xl w-full h-full"/>
+          </figure>
+          <div class="card-body p-5 gap-3">
+            <p class="text-gray-500 font-medium"><i class="fa-regular fa-calendar-days"></i> July 14, 2024 <i class="fa-regular fa-circle-user ml-2"></i> By Admin</p>
+            <h2 class="card-title text-xl xl:text-2xl font-extrabold">How to choose the furniture right  of your home.</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            <a class="link link-hover xl:text-lg font-extrabold flex gap-2">Read More<span class="w-6 h-6 bg-[#ABEF5F] rounded-full items-center justify-center flex"><i
+              class="fa-solid fa-arrow-up-long text-sm rotate-45"></i></span></a>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl sm:flex-row xl:flex-col">
+          <figure class="p-5 pb-0 sm:h-56 xl:h-full">
+            <img src="./assets/article2.png" class="rounded-xl w-full h-full"/>
+          </figure>
+          <div class="card-body p-5 gap-3">
+            <p class="text-gray-500 font-semibold"><i class="fa-regular fa-calendar-days"></i> July 14, 2024 <i class="fa-regular fa-circle-user ml-2"></i> By Admin</p>
+            <h2 class="card-title text-xl xl:text-2xl font-extrabold">How to choose the furniture right  of your home.</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            <a class="link link-hover xl:text-lg font-extrabold flex gap-2">Read More<span class="w-6 h-6 bg-[#ABEF5F] rounded-full items-center justify-center flex"><i
+              class="fa-solid fa-arrow-up-long text-sm rotate-45"></i></span></a>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl sm:flex-row xl:flex-col">
+          <figure class="p-5 pb-0 sm:h-56 xl:h-full">
+            <img src="./assets/article3.png" class="rounded-xl w-full h-full"/>
+          </figure>
+          <div class="card-body p-5 gap-3">
+            <p class="text-gray-500 font-semibold"><i class="fa-regular fa-calendar-days"></i> July 14, 2024 <i class="fa-regular fa-circle-user ml-2"></i> By Admin</p>
+            <h2 class="card-title text-xl xl:text-2xl font-extrabold">How to choose the furniture right  of your home.</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            <a href="" class="link link-hover xl:text-lg font-extrabold flex gap-2">Read More<span class="w-6 h-6 bg-[#ABEF5F] rounded-full items-center justify-center flex"><i
+              class="fa-solid fa-arrow-up-long text-sm rotate-45"></i></span></a>
+          </div>
+        </div>         
+      </div>
+      </div>
+     </section>
+
+     <!-- contact section -->
+      <section id="contact" class="bg-no-repeat bg-cover bg-center my-1 mb-96" style="background-image: url(./assets/bg.jpg);">
+
+        <div class="container mx-auto py-10 sm:py-14 xl:py-20 px-5">
+
+        <!-- daisyUI hero section -->
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="">
+              <button class="bg-[#ABEF5F33] px-4 py-1 rounded-full font-bold mb-5"><i class="fa-solid fa-arrow-right-long mr-2"></i>Let’s Connect</button>
+              <h1 class="text-2xl sm:text-3xl xl:text-5xl font-extrabold">Let’s Discuss Next Project</h1>
+              <p class="text-gray-500 text-sm sm:text-base sm:w-4/5 xl:w-2/3 mx-auto py-3 xl:py-6">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- input fileds -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <input type="text" placeholder="First Name" class="input input-bordered w-full rounded-full" />
+          <input type="text" placeholder="Last Name" class="input input-bordered w-full rounded-full" />
+          <input type="number" placeholder="Phone Number" class="input input-bordered w-full rounded-full " />
+          <input type="email" placeholder="Email address" class="input input-bordered w-full rounded-full " />
+          <textarea class="textarea textarea-bordered w-full rounded-3xl col-span-2 h-52" placeholder="Write your message here"></textarea>
+
+          <a class="text-xl font-bold bg-green-400 px-3 py-2 rounded-full flex gap-3 col-span-2 justify-center">Book Consult 
+            <span class="w-8 h-8 bg-black rounded-full items-center justify-center flex"><i
+            class="fa-solid fa-arrow-up-long text-lg rotate-45 text-white"></i></span></i>
+          </a>
+      </div>
+        </div>
+      </section>
   </main>
 
   <footer>
